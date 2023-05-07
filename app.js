@@ -61,10 +61,10 @@ function showPopup(feedbackMessage) {
 	// Add the popup container to the page
 	document.body.appendChild(popupContainer);
   
-	// Set a timeout to remove the popup after 3 seconds
+	// Set a timeout to remove the popup after 5 seconds
 	setTimeout(function() {
 	  popupContainer.remove();
-	}, 3000);
+	}, 5000);
   }
   
 
